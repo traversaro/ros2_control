@@ -88,6 +88,7 @@ protected:
    * \default returns true so the method don't have to be overridden if controller can always switch
    * chained mode.
    */
+  CONTROLLER_INTERFACE_PUBLIC
   virtual bool on_set_chained_mode(bool chained_mode);
 
   /// Update reference from input topics when not in chained mode.
